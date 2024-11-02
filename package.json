@@ -1,0 +1,21 @@
+{
+  "name": "codeboost-gulp",
+  "version": "1.0.0",
+  "description": "Um template do gulp",
+  "main": "index.js",
+  "author": "Kevin William",
+  "license": "MIT",
+  
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "browser-sync": "^2.29.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.61.0"
+  }
+}
