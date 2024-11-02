@@ -1,2 +1,4 @@
-@import './base/reset';
+@use './base/variables';
+@use './base/reset';
 
+@use './home'

@@ -1,7 +1,7 @@
 {
-  "name": "codeboost-gulp",
+  "name": "ip-address-tracker",
   "version": "1.0.0",
-  "description": "Um template do gulp",
+  "description": "A challenge of Frontend Mentor",
   "main": "index.js",
   "author": "Kevin William",
   "license": "MIT",
