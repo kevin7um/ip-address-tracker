@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "Kevin William",
   "license": "MIT",
-  
   "dependencies": {
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
