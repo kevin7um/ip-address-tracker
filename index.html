@@ -18,9 +18,9 @@
 <body>
   <header>
     <h1>IP Address Tracker</h1>
-    <form>
+    <form id="js-form">
       <div class="input-group">
-        <input type="text" name="ip" id="ip" placeholder="Digite um IP ou domínio">
+        <input type="text" name="input" id="input" placeholder="Digite um IP ou domínio">
         <button type="submit">
           <img src="./src/img/icon-arrow.svg">
         </button>
@@ -31,19 +31,19 @@
     <div class="info-result">
       <div class="box-info">
         <span>Ip Address</span>
-        <strong>192.168.0.0</strong>
+        <strong id="ip">8.8.8.8</strong>
       </div>
       <div class="box-info">
         <span>Location</span>
-        <strong>Brooklyn, NY 10001</strong>
+        <strong id="local">Mountain View, California</strong>
       </div>
       <div class="box-info">
         <span>Timezone</span>
-        <strong>UTC - 05:00</strong>
+        <strong id="timezone">-07:00</strong>
       </div>
       <div class="box-info">
         <span>Isp</span>
-        <strong>SpaceX Starlink</strong>
+        <strong id="isp">Google LLC</strong>
       </div>
     </div>
     <div id="map">
@@ -52,5 +52,6 @@
 </body>
 </html>
 
+<script src="./src/js/config.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="./src/js/main.js"></script>
